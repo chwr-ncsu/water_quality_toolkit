@@ -1,6 +1,12 @@
 # Toolkit for Assessing Performance in Water Quality Models
 This is a repository for the Toolkit for Assessing Performance in Water Quality Models (TAP-WQ) 
 
+Developer Contact:
+Dominic Libera
+dalibera@ncsu.edu
+North Carolina State University
+2501 Stinson Drive Raleigh, NC 27695-7908
+
 Version: 1.0 	Last Updated: 03/01/17
 
 Requirements:
