@@ -18,5 +18,8 @@ Requirements:
 -	This toolkit is a MATLAB file with the extension (*.m) built using MATLAB® Version R2014a.
 - The .R code is provided in the repository, and the .exe file communicates with R.
 -	This toolkit was built using the GUIDE interface builder in MATLAB
+- The working directory for the .R code is set to the program file directory of the downloaded
+  .exe file using the application installer.  If you wish to run the code in another directory 
+  the working directory should be changed in the .R code.
 
 
