@@ -14,12 +14,12 @@ North Carolina State University
 Version: 1.0 	Last Updated: 10/31/17
 
 Requirements:
-- This toolkit is offered as a windwows application (.exe)
--	This toolkit is a MATLAB file with the extension (*.m) built using MATLAB® Version R2014a.
-- The .R code is provided in the repository, and the .exe file communicates with R.
--	This toolkit was built using the GUIDE interface builder in MATLAB
-- The working directory for the .R code is set to the program file directory of the downloaded
-  .exe file using the application installer.  If you wish to run the code in another directory 
-  the working directory should be changed in the .R code.
+-	This toolkit was built in MATLAB® Version R2017a. using the GUIDE interface builder in MATLAB
+- The (.m) and (.fig) files were compiled as a windwows application (.exe)
+- The (.exe) application uses the RunRcode.f to run the WRTDS model in R Studio
+- The working directory for the .R code is set to the directory of the downloadeded 
+  .exe file (e.g. C:/Program Files/TAP_CRM).  If you wish to run the code in another directory 
+  the working directory should be changed in the .R code named "tap_crm_wrtds_model.R".
+  -NOTE: Make sure the application has permission to write files to the direcotry in Program Files.
 
 
