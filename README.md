@@ -13,13 +13,12 @@ North Carolina State University
 
 Version: 1.0 	Last Updated: 10/31/17
 
-Requirements:
--	This toolkit was built in MATLAB® Version R2017a. using the GUIDE interface builder in MATLAB
+Requirements and Notes:
+-	This toolkit was built in MATLAB® Version R2017a. Using the GUIDE interface builder in MATLAB
 - The (.m) and (.fig) files were compiled as a windwows application (.exe)
-- The (.exe) application uses the RunRcode.f to run the WRTDS model in R Studio
+- The (.exe) application uses the RunRcode.f to run the WRTDS model in R Studio.
 - The working directory for the .R code is set to the directory of the downloadeded 
-  .exe file (e.g. C:/Program Files/TAP_CRM).  If you wish to run the code in another directory 
-  the working directory should be changed in the .R code named "tap_crm_wrtds_model.R".
-  -NOTE: Make sure the application has permission to write files to the direcotry in Program Files.
-
+  file (e.g. C:/Program Files/TAP_CRM) using the Installer Application found in TAP_CRM_Download.zip.  If you wish to run the code in another directory the working directory should be changed in the .R code named "tap_crm_wrtds_model.R".  
+-NOTE: The TAP-CRM executable will create subdirectories for storing loadest and wrtds calibration files so make sure the application has permisson to write in the folder and subfolders.
+-NOTE: If the user wants to change the block size of the resampling method they will have to do so inside the (.m) file, found in the TAP_CRM_Files.zip. 
 
